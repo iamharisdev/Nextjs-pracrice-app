@@ -1,0 +1,38 @@
+.container {
+  
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  height: 100vh;
+  /* margin: 50px auto; */
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color:red;
+}
+.subContainer{
+
+ max-width: 400px;
+}
+.loginImage {
+
+  height: 90vh;
+  object-fit: cover; /* Maintain aspect ratio and cover the space */
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
